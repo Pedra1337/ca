@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(../fonts/Montserrat-Italic.ttf);
+    
+}
+*{
+    font-family: "Montserrat-Italic";
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/hand-painted-watercolor-background-with-sky-and-clouds-shape_24972-1095.png) center no-repeat;
+    background-size: 100% 100%;
+}
+.zago {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(33, 200, 83);
+    margin-top: 10px;
+    border: solid 3px #3d3d3d;
+    border-radius: 10px;
+    
+    
+}
+.opisanie {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(33, 200, 83);
+    
+}
+.opisanie1 {
+    margin-left: 10%;
+    width: 200px;
+    height: 200px;
+    border: solid 7px #3d3d3d;
+    border-radius: 50px;
+}
+.opisanie2 {
+    margin-left: 10%;
+    width: 200px;
+    height: 200px;
+    border: solid 7px #3d3d3d;
+    border-radius: 50px;
+    z-index: 110;
+}
+.text-upper {
+    text-transform: uppercase;
+    text-align: center;
+}
+section#first-page .nav {
+    list-style-type: none;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0 10px;
+    border: solid 2px #3d3d3d;
+    border-radius: 10px;
+    padding: 10px;
+}
+section#first-page .nav li {
+    padding-left: 35px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    color: brown;
+}
+section#first-page .nav li:first-of-type {
+    padding-left: 0;
+    
+}
+section#first-page .nav li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: #3d3d3d;
+    transition: 1s ease-in-out;
+    
+}
+section#first-page .nav li:hover::after {
+    width: 100%;
+}
+.opisanie2{
+    background-color: #fff;    
+}
+.we {
+    font-size: 20px;
+    color: coral;
+    
+}
